@@ -1,0 +1,14 @@
+h1{
+	text-align:  center; margin-top: 0px;
+}
+
+body {
+text-align: left; margin-right: 400px; margin-left: 400px; font-family: Verlag; font-size:1.5vw;
+}
+
+mark span {
+	color:  white; 
+	background-color: #7f7f7f; 
+	font-family: Verlag; 
+	text-align: left;
+}
