@@ -1,0 +1,21 @@
+body {
+text-align: right; margin: 100px; 
+background-image: url('https://i.ibb.co/k6S6BM2/niuto-background.jpg');
+background-size: 850px;
+background-repeat: no-repeat;
+background-blend-mode: lighten;
+background-position: 750px 50px;
+}
+
+ul {
+text-align:left;
+font-family: Verlag;
+line-height: 200%;
+}
+
+mark span {
+	color:  white; 
+	background-color: #7f7f7f; 
+	font-family: Verlag; 
+	text-align: left;
+}
