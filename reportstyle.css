@@ -3,10 +3,10 @@ h1{
 }
 
 body {
-text-align: left; margin-right: 6vw; margin-left: 6vw; font-family: Verlag; font-size:2vw;
+text-align: left; margin-right: 20vw; margin-left: 20vw; font-family: Verlag; font-size:1.5vw;
 }
 
-mark span {
+mark {
 	color:  white; 
 	background-color: #7f7f7f; 
 	font-family: Verlag; 
