@@ -17,11 +17,12 @@ mark {
 	text-align: left;
 }
 
-@media screen and (min-width: 390) and (min-height:  844px){
+@media screen and (max-width: 576px){
 	h1{
 		font-size: 16vw;
 	}
 	body {
+	background-color:  deeppink;
 	margin-right: 1px; margin-left: 1px; font-size: 6vw;
 	    }
 }
