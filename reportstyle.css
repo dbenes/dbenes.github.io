@@ -2,7 +2,7 @@ h1{
 	text-align:  center; margin-top: 0px; font-size: 7vw; font-family: Verlag;"
 }
 
-@media screen and (max-width:629px)
+@media screen and (max-width:1200px)
 {
 	img#logo {
 		display: none;
