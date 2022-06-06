@@ -17,13 +17,13 @@ mark {
 	text-align: left;
 }
 
-@media screen and (min-height:2161px){
+@media screen and (min-height:900px){
 
 	h1{
 		font-size: 16vw;
 	}
 	body {
-	margin-right: 30px; margin-left: 30px; font-size: 6vw;
+	margin-right: 1px; margin-left: 1px; font-size: 6vw;
 	    }
 }
 
