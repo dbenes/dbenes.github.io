@@ -2,11 +2,14 @@ h1{
 	text-align:  center; margin-top: 0px;
 }
 
-@media screen and (max-width:400px)
+@media screen and (max-width:629px)
 {
-body{
-margin:0px;
-    }
+	img#logo {
+		display: none;
+	}
+	body{
+	margin:0px;
+	    }
 }
 
 body {
