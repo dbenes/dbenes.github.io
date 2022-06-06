@@ -19,9 +19,10 @@ mark {
 
 @media screen and (max-width: 576px){
 	h1{
-		font-size: 16vw;
+		font-size: 14vw;
 	}
 	body {
+	text-align: center;
 	background-color:  deeppink;
 	margin-right: 1px; margin-left: 1px; font-size: 6vw;
 	    }
