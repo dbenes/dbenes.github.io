@@ -19,3 +19,13 @@ mark span {
 	font-family: Verlag; 
 	text-align: left;
 }
+
+@media screen and (max-width: 576px){
+	h1{
+		font-size: 14.5vw;
+	}
+	background-image { display: none; }
+	text-align: center;
+	margin-right: 1px; margin-left: 1px; font-size: 6vw;
+	    }
+}
