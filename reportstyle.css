@@ -4,11 +4,16 @@ h1{
 
 body{
 text-align: left; 
-margin-right: 400px; 
-margin-left: 400px; 
+margin-right: 300px; 
+margin-left: 300px; 
 font-family: Verlag; 
 font-size:1.5vw;
 }
+
+ul{
+		list-style-type: none;
+		padding: 0; 
+	}
 
 mark {
 	color:  white; 

@@ -1,26 +1,38 @@
+html, body{
+	height:  100%;
+}
+
 body {
-	text-align: right; margin: 100px; 
+	text-align: left; 
+	margin-left: 0px; 
+	padding: 0;
+	font-family: Verlag;
+	font-size: 2vw;
 	background-image: url('https://i.ibb.co/k6S6BM2/niuto-background.jpg');
-	background-size: 850px;
+	background-size: contain;
 	background-repeat: no-repeat;
 	background-blend-mode: lighten;
-	background-position: 750px 50px;
+	background-position-x: right;
+	background-position-y: bottom;
+	margin-bottom: 0px;
 }
+
 h1 {
 	text-align: left; 
 	font-size: 7vw; 
 	position: relative; 
-	top: -80px;
-	left: -80px; 
 }
 ul {
 	text-align:left;
 	font-family: Verlag;
 	line-height: 200%;
 	position: relative; 
-	left: -120px; 
-	top: -150px; 
-	font-size: 2vw;"
+	font-size: 2vw;
+	list-style-type: none;
+	padding: 0px;	
+	margin-left: 40px; 
+	margin-right: 40vw; 
+	line-height: 100%;"
 }
 mark span {
 	color:  white; 
@@ -28,6 +40,8 @@ mark span {
 	font-family: Verlag; 
 	text-align: left;
 }
+
+
 @media screen and (max-width: 576px){
 	body{
 		background-color: pink;
@@ -35,6 +49,8 @@ mark span {
 		margin: 0px;
 	}
 	ul{
+		padding: 0;
+    	list-style-type: none;
 		text-align: center;
 		font-size: 6vw;
 		top: 0px;
@@ -43,7 +59,7 @@ mark span {
 		line-height: 120%;
 	}
 	h1{
-		top:  0px;
+		top:  10px;
 		left: 0px;
 		font-size: 14.5vw;
 		text-align: center;
