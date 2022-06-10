@@ -21,8 +21,8 @@ h1 {
 	text-align: left; 
 	font-size: 7vw; 
 	position: relative; 
-	margin-top: 35px; 
-	margin-left: 35px;
+	margin-top: 20px; 
+	margin-left: 12px;
 }
 h2 {font-size: 3.5vw}
 ul {
@@ -33,7 +33,7 @@ ul {
 	font-size: 2vw;
 	list-style-type: none;
 	padding: 0px;	
-	margin-left: 35px; 
+	margin-left: 12px; 
 	margin-right: 55vw; 
 	line-height: 100%;"
 
