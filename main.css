@@ -7,7 +7,7 @@ body {
 	padding: 0;
 	font-family: Verlag;
 	font-size: 2vw;
-	background-image: url('https://drive.google.com/uc?id=1hdnBwxYVYDom1wsCf9jElloss1pOIxKi');
+	background-image: url('https://i.ibb.co/bPj6BX9/niuto-background-1.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-blend-mode: lighten;
@@ -50,8 +50,10 @@ mark span {
 		margin-right: 0px;
 		background-image:  none;
 		margin: 0px;
+		font-family: Verlag;
 	}
 	ul{
+		font-family: Verlag;
 		padding: 0;
 		margin-left: 0px;
 		margin-right: 0px;

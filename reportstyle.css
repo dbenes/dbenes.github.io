@@ -4,10 +4,12 @@ html, body{
 
 h1 {
 	text-align: center; 
+	margin-left: 0px;
 	line-height: 110%;
 	font-size: 7vw; 
 	position: relative; 
 	margin-top: 35px; 
+	margin-left: 0px;
 	font-family: Verlag;
 }
 
@@ -22,6 +24,7 @@ font-size:1.5vw;
 ul{
 		list-style-type: none;
 		padding: 0; 
+		font-family: Verlag;
 	}
 
 mark {
@@ -33,6 +36,7 @@ mark {
 
 @media screen and (max-width: 576px){
 	h1{
+		left: 0;
 		margin-top:  10px;
 		margin-left: 0px;
 		padding: 0;
