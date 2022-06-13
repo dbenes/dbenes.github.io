@@ -8,7 +8,12 @@ html, body{
     font-weight: 400;
     src: local('Verlag'), url('https://fonts.cdnfonts.com/s/38686/VerlagBold.woff') format('woff');
 }
-
+@font-face {
+    font-family: 'VerlagBook';
+    font-style: normal;
+    font-weight: 325;
+    src: local('Verlag'), url('https://fonts.cdnfonts.com/s/38686/VerlagBook.woff') format('woff');
+}
 @font-face {
     font-family: 'Verlag';
     font-style: normal;
@@ -37,7 +42,7 @@ h1 {
 	position: relative; 
 	margin-top: 35px; 
 	margin-left: 22px;
-	font-family: VerlagBold;
+	font-family: VerlagBook;
 }
 ul {
 	text-align:left;
@@ -52,7 +57,7 @@ ul {
 mark span {
 	color:  white; 
 	background-color: #7f7f7f; 
-	font-family: VerlagBold; 
+	font-family: VerlagBook; 
 	text-align: left;
 }
 
@@ -87,7 +92,7 @@ mark span {
 		line-height: 100%;
 		font-size: 14.5vw;
 		text-align: center;
-		font-family: VerlagBold;
+		font-family: VerlagBook;
 	}
 	background-image { display: none; }
 	    }
