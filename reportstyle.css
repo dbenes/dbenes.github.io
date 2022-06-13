@@ -25,8 +25,9 @@ mark {
 @media screen and (max-width: 576px){
 	h1{
 		font-size: 14.5vw;
-		line-height: 110%;
-		margin-top: 0px;
+		line-height: 120%;
+		margin-top: 10px;
+		font-family: Verlag;
 	}
 	body {
 	text-align: left;
