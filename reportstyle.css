@@ -45,6 +45,7 @@ mark {
 		margin-left: 10px;
 	}
 	body {
+	background-color: pink;
 	text-align: left;
 	font-family: Verlag;
 	margin-right: 10px; margin-left: 10px; font-size: 5vw;
