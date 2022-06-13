@@ -1,5 +1,9 @@
 h1{
-	text-align:  center; margin-top: 0px; font-size: 7vw; font-family: Verlag;"
+	text-align:  center; 
+	margin-top: 0px; 
+	font-size: 7vw; 
+	font-family: Verlag;"
+	line-height: 110%;
 }
 
 body{
@@ -25,7 +29,6 @@ mark {
 @media screen and (max-width: 576px){
 	h1{
 		font-size: 14.5vw;
-		line-height: 100%;
 		margin-top: 10px;
 		font-family: Verlag;
 	}
