@@ -3,15 +3,23 @@ html, body{
 }
 
 @font-face {
-    font-family: Verlag-Light;
-    src: url("../../dbenes/Verlag-Light.otf") format('truetype');
+    font-family: 'VerlagBold';
+    font-style: bold;
+    font-weight: 400;
+    src: local('Verlag'), url('https://fonts.cdnfonts.com/s/38686/VerlagBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Verlag';
     font-style: normal;
+    font-weight: 200;
+    src: local('Verlag'), url('https://fonts.cdnfonts.com/s/38686/VerlagLight.woff') format('woff');
 }
 
 body {
 	text-align: left; 
 	padding: 0;
-	font-family: Verlag-Light;
+	font-family: Verlag;
 	font-size: 1.75vw;
 	background-image: url('https://i.ibb.co/bPj6BX9/niuto-background-1.jpg');
 	background-size: contain;
@@ -29,12 +37,12 @@ h1 {
 	position: relative; 
 	margin-top: 35px; 
 	margin-left: 22px;
-	font-family: Verlag-Light;
+	font-family: VerlagBold;
 }
 ul {
 	text-align:left;
 	margin-left: 22px;
-	font-family: Verlag-Light;
+	font-family: Verlag;
 	list-style-type: none;
 	padding: 0px;	
 	margin-right: 40vw; 
@@ -44,7 +52,7 @@ ul {
 mark span {
 	color:  white; 
 	background-color: #7f7f7f; 
-	font-family: Verlag-Light; 
+	font-family: VerlagBold; 
 	text-align: left;
 }
 
@@ -56,10 +64,10 @@ mark span {
 		margin-right: 0px;
 		background-image:  none;
 		margin: 0px;
-		font-family: Verlag-Light;
+		font-family: Verlag;
 	}
 	ul{
-		font-family: Verlag-Light;
+		font-family: Verlag;
 		padding: 0;
 		margin-left: 0px;
 		margin-right: 0px;
@@ -78,7 +86,7 @@ mark span {
 		padding: 0;
 		font-size: 14.5vw;
 		text-align: center;
-		font-family: Verlag-Light;
+		font-family: VerlagBold;
 	}
 	background-image { display: none; }
 	    }
