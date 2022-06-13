@@ -29,8 +29,13 @@ mark {
 		margin-top: 10px;
 		font-family: Verlag;
 	}
+	ul{
+		margin-right: 10px;
+		margin-left: 10px;
+	}
 	body {
 	text-align: left;
+	font-family: Verlag;
 	margin-right: 10px; margin-left: 10px; font-size: 5vw;
 	    }
 }
