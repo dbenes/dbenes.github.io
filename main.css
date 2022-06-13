@@ -4,8 +4,7 @@ html, body{
 
 @font-face {
     font-family: Verlag-Light;
-    src: url("../../dbenes/fonts/Verlag-Light.otf") format('truetype');
-    font-weight: bold;
+    src: url("../../dbenes/Verlag-Light.otf") format('truetype');
     font-style: normal;
 }
 
