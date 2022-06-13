@@ -2,10 +2,17 @@ html, body{
 	height:  97%;
 }
 
+@font-face {
+    font-family: Verlag-Light;
+    src: url("../../dbenes.github.io/fonts/Verlag-Light.otf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 body {
 	text-align: left; 
 	padding: 0;
-	font-family: Verlag;
+	font-family: Verlag-Light;
 	font-size: 1.75vw;
 	background-image: url('https://i.ibb.co/bPj6BX9/niuto-background-1.jpg');
 	background-size: contain;
@@ -23,12 +30,12 @@ h1 {
 	position: relative; 
 	margin-top: 35px; 
 	margin-left: 22px;
-	font-family: Verlag;
+	font-family: Verlag-Light;
 }
 ul {
 	text-align:left;
 	margin-left: 22px;
-	font-family: Verlag;
+	font-family: Verlag-Light;
 	list-style-type: none;
 	padding: 0px;	
 	margin-right: 40vw; 
@@ -38,7 +45,7 @@ ul {
 mark span {
 	color:  white; 
 	background-color: #7f7f7f; 
-	font-family: Verlag; 
+	font-family: Verlag-Light; 
 	text-align: left;
 }
 
