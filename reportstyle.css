@@ -1,9 +1,14 @@
-h1{
-	text-align:  center; 
-	margin-top: 0px; 
-	font-size: 7vw; 
-	font-family: Verlag;"
+html, body{
+	height:  97%;
+}
+
+h1 {
+	text-align: center; 
 	line-height: 110%;
+	font-size: 7vw; 
+	position: relative; 
+	margin-top: 35px; 
+	font-family: Verlag;
 }
 
 body{
