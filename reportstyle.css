@@ -2,6 +2,13 @@ html, body{
 	height:  97%;
 }
 
+@font-face {
+    font-family: 'Verlag';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Verlag'), url('https://fonts.cdnfonts.com/s/38686/VerlagLight.woff') format('woff');
+}
+
 h1 {
 	text-align: center; 
 	margin-left: 0px;
