@@ -2,16 +2,11 @@ html, body{
 	height:  97%;
 }
 
-@import url(//db.onlinewebfonts.com/c/bcd0c9bdcf29c2dd630785c724469553?family=Verlag+Book);
-
-@font-face {font-family: "Verlag Book"; src: url("//db.onlinewebfonts.com/t/bcd0c9bdcf29c2dd630785c724469553.eot"); src: url("//db.onlinewebfonts.com/t/bcd0c9bdcf29c2dd630785c724469553.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/bcd0c9bdcf29c2dd630785c724469553.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/bcd0c9bdcf29c2dd630785c724469553.woff") format("woff"), url("//db.onlinewebfonts.com/t/bcd0c9bdcf29c2dd630785c724469553.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/bcd0c9bdcf29c2dd630785c724469553.svg#Verlag Book") format("svg"); }
-
-
 body {
 	text-align: left; 
 	margin-left: 0px; 
 	padding: 0;
-	font-family: Verlag Book;
+	font-family: Verlag;
 	font-size: 2vw;
 	background-image: url('https://drive.google.com/uc?id=1hdnBwxYVYDom1wsCf9jElloss1pOIxKi');
 	background-size: contain;
@@ -29,13 +24,13 @@ h1 {
 	position: relative; 
 	margin-top: 35px; 
 	margin-left: 30px;
-	font-family: Verlag Book;
+	font-family: Verlag;
 }
 h2 {font-size: 3.5vw}
 
 ul {
 	text-align:left;
-	font-family: Verlag Book;
+	font-family: Verlag;
 	line-height: 200%;
 	position: relative;
 	font-size: 2vw;
@@ -50,7 +45,7 @@ ul {
 mark span {
 	color:  white; 
 	background-color: #7f7f7f; 
-	font-family: Verlag Book; 
+	font-family: Verlag; 
 	text-align: left;
 }
 
@@ -85,7 +80,7 @@ mark span {
 		padding: 0;
 		font-size: 14.5vw;
 		text-align: center;
-		font-family: Verlag Book;
+		font-family: Verlag;
 	}
 	background-image { display: none; }
 	    }
