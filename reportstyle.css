@@ -34,6 +34,15 @@ h1 {
 	font-family: VerlagBook;
 }
 
+h2{
+	font-size: 1.75vw;
+	font-family: VerlagBook;
+	padding: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-weight: normal;
+}
+
 body{
 text-align: left; 
 margin-right: 350px; 
@@ -65,6 +74,11 @@ mark span {
 		text-align: center;
 		font-family: VerlagBook;
 		line-height: 100%;
+	}
+	h2{
+		margin-left: 0px;
+		margin-right: 0px;
+		font-size: 5.5;
 	}
 	ul{
 		margin-right: 15px;
