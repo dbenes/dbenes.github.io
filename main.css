@@ -18,14 +18,20 @@ html, body{
     font-family: 'Verlag';
     font-style: normal;
     font-weight: 200;
-    src: local('Verlag'), url('https://fonts.cdnfonts.com/s/38686/VerlagLight.woff') format('woff');
+    src: local('Verlag'), url('https://fonts.cdnfonts.com/s/38686/Verlag.woff') format('woff');
+}
+
+@font-face {
+	font-family:  'Manrope';
+	font-style: normal;
+	src: url('Manrope-ExtraLight.woff') format('woff');
 }
 
 body {
 	text-align: left; 
 	padding: 0;
-	font-family: Verlag;
-	font-size: 1.75vw;
+	font-family: Manrope;
+	font-size: 1.50vw;
 	background-image: url('https://i.ibb.co/bPj6BX9/niuto-background-1.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -47,11 +53,11 @@ h1 {
 ul {
 	text-align:left;
 	margin-left: 22px;
-	font-family: Verlag;
+	font-family: Manrope;
 	list-style-type: none;
 	padding: 0px;	
-	margin-right: 40vw; 
-	line-height: 100%;
+	margin-right: 55vw; 
+	line-height: 110%;
 }
 
 mark span {
@@ -69,10 +75,10 @@ mark span {
 		margin-right: 0px;
 		background-image:  none;
 		margin: 0px;
-		font-family: Verlag;
+		font-family: Manrope;
 	}
 	ul{
-		font-family: Verlag;
+		font-family: Manrope;
 		line-height: 100%;
 		padding: 0;
 		margin-left: 0px;

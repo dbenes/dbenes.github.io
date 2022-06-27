@@ -2,6 +2,7 @@ html, body{
 	height:  97%;
 }
 
+
 @font-face {
     font-family: 'VerlagBook';
     font-style: normal;
@@ -23,6 +24,13 @@ html, body{
     src: local('Verlag'), url('https://fonts.cdnfonts.com/s/38686/VerlagLight.woff') format('woff');
 }
 
+
+@font-face {
+	font-family:  'Manrope';
+	font-style: normal;
+	src: url('Manrope-ExtraLight.woff') format('woff');
+}
+
 h1 {
 	text-align: center; 
 	margin-left: 0px;
@@ -36,25 +44,26 @@ h1 {
 
 h2{
 	font-size: 1.75vw;
-	font-family: VerlagBook;
+	font-family: Manrope;
 	padding: 0px;
 	margin-bottom: 0px;
 	margin-top: 0px;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 body{
 text-align: left; 
 margin-right: 350px; 
 margin-left: 350px; 
-font-family: Verlag; 
+font-family: Manrope; 
 font-size:1.5vw;
 }
 
 ul{
 		list-style-type: none;
 		padding: 0; 
-		font-family: Verlag;
+		font-family: Manrope;
+		line-height: 110%;
 	}
 
 mark span {
@@ -86,7 +95,7 @@ mark span {
 	}
 	body {
 	text-align: left;
-	font-family: Verlag;
+	font-family: Manrope;
 	margin-right: 0px; 
 	margin-left: 0px; 
 	font-size: 5vw;
