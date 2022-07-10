@@ -2,28 +2,24 @@ html, body{
 	height:  97%;
 }
 
-
 @font-face {
     font-family: 'VerlagBold';
     font-style: bold;
     font-weight: 400;
     src: local('Verlag'), url('https://fonts.cdnfonts.com/s/38686/VerlagBold.woff') format('woff');
 }
-
 @font-face {
     font-family: 'VerlagBook';
     font-style: normal;
     font-weight: 325;
     src: local('Verlag'), url('https://fonts.cdnfonts.com/s/38686/VerlagBook.woff') format('woff');
 }
-
 @font-face {
     font-family: 'Verlag';
     font-style: normal;
     font-weight: 250;
     src: local('Verlag'), url('https://fonts.cdnfonts.com/s/38686/VerlagLight.woff') format('woff');
 }
-
 @font-face {
 	font-family:  'Manrope';
 	font-style: normal;
@@ -61,7 +57,7 @@ h2 {font-size: 2vw
 
 ul {
 	text-align:left;
-	font-family: Manrope;
+	font-family: Verlag;
 	line-height: 200%;
 	position: relative;
 	font-size: 1.5vw;
@@ -88,7 +84,8 @@ mark span {
 		background-image:  none;
 		margin: 0px;
 		text-align: left;
-		font-family: Manrope;
+		font-family: Verlag;
+		text-align: center;
 	}
 
 	h2{
@@ -96,7 +93,7 @@ mark span {
 		font-family: VerlagBold;
 	}
 	ul{
-		font-family: Manrope;
+		font-family: Verlag;
 		padding: 0;
 		margin-left: 15px;
 		margin-right: 15px;
@@ -107,6 +104,7 @@ mark span {
 		left:  1px;
 		right: 1px;
 		line-height: 120%;
+		text-align: center;
 	}
 	h1{
 		margin-top:  10px;
