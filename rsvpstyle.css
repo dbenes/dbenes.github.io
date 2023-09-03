@@ -1,0 +1,95 @@
+html, body{
+	height:  97%;
+}
+
+
+@font-face {
+    font-family: 'VerlagBold';
+    font-style: bold;
+    font-weight: 400;
+    src: local('Verlag'), url('https://fonts.cdnfonts.com/s/38686/VerlagBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'PeterQ';
+    font-style: normal;
+    font-weight: 325;
+    src: local('Verlag'), url('https://fonts.cdnfonts.com/s/97414/PeterQuincy-w1nKz.woff') format('woff');
+}
+@font-face {
+    font-family: 'Eurof';
+    font-style: normal;
+    font-weight: 250;
+    src: local('Verlag'), url('https://fonts.cdnfonts.com/s/8583/eurof56.woff') format('woff');
+}
+
+h1 {
+	text-align: center; 
+	margin-left: 0px;
+	line-height: 110%;
+	font-size: 8vw; 
+	position: relative; 
+	margin-top: 35px; 
+	margin-left: 0px;
+	font-family: PeterQ;
+}
+
+h2{
+	font-size: 5vw;
+	font-family: VerlagBold;
+	padding: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-weight: bold;
+}
+
+body{
+text-align: center; 
+margin-right: 350px; 
+margin-left: 350px; 
+font-family: Eurof; 
+font-size:3vw;
+}
+
+ul{
+		list-style-type: none;
+		padding: 0; 
+		font-family: Eurof;
+		line-height: 110%;
+	}
+
+mark span {
+	color:  white; 
+	background-color: #7f7f7f; 
+	font-family: PeterQ; 
+	text-align: left;
+}
+
+@media screen and (max-width: 576px){
+	h1{
+		left: 0;
+		margin-top:  10px;
+		margin-left: 0px;
+		padding: 0;
+		font-size: 14.5vw;
+		text-align: center;
+		font-family: PeterQ;
+		line-height: 100%;
+	}
+	h2{
+		margin-left: 0px;
+		margin-right: 0px;
+		font-size: 5.75vw;
+	}
+	ul{
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+	body {
+	text-align: left;
+	font-family: Eurof;
+	margin-right: 0px; 
+	margin-left: 0px; 
+	font-size: 5vw;
+	    }
+}
+
