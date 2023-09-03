@@ -49,13 +49,33 @@ h1 {
 	margin-left: 180px;
 	font-family: PeterQ;
 }
+h2 {
+	line-height: 110%;
+	color: gray;
+	text-align: left; 
+	font-size: 2.5vw; 
+	position: relative; 
+	margin-top: 0px; 
+	margin-left: 75px;
+	font-family: Eurof;
+}
+h3 {
+	line-height: 110%;
+	color: gray;
+	text-align: left; 
+	font-size: 1.9vw; 
+	position: relative; 
+	margin-top: 0px; 
+	margin-left: 75px;
+	font-family: Eurof;
+}
 ul {
 	text-align:left;
-	margin-left: 50px;
+	margin-left: 75px;
 	font-family: Eurof;
 	list-style-type: none;
 	padding: 0px;	
-	margin-right: 55vw; 
+	margin-right: 75vw; 
 	line-height: 110%;
 }
 
@@ -84,7 +104,7 @@ mark span {
 		margin-right: 0px;
     	list-style-type: none;
 		text-align: center;
-		font-size: 6vw;
+		font-size: 5.5vw;
 		top: 0px;
 		left:  1px;
 		right: 1px;
@@ -99,6 +119,26 @@ mark span {
 		font-size: 14.5vw;
 		text-align: center;
 		font-family: PeterQ;
+	}
+	h2 {
+	line-height: 110%;
+	color: gray;
+	text-align: left; 
+	font-size: 7vw; 
+	position: relative; 
+	margin-top: 0px; 
+	margin-left: 75px;
+	font-family: Eurof;
+	}
+		h3 {
+	line-height: 110%;
+	color: gray;
+	text-align: left; 
+	font-size: 6vw; 
+	position: relative; 
+	margin-top: 0px; 
+	margin-left: 75px;
+	font-family: Eurof;
 	}
 	background-image { display: none; }
 	    }
