@@ -25,13 +25,17 @@ html, body{
 	font-style: normal;
 	src: url('Manrope-ExtraLight.woff') format('woff');
 }
+div {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
 
 body {
 	text-align: left; 
 	padding: 0;
 	font-family: Eurof;
 	font-size: 1.50vw;
-	background-image: url('https://i.ibb.co/64g9kq2/castle.jpg');
 	background-size: 30vw;
 	background-repeat: no-repeat;
 	background-blend-mode: exclusion;
