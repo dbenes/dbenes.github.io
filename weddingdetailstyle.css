@@ -36,6 +36,7 @@ body {
 	padding: 0;
 	font-family: Eurof;
 	font-size: 1.50vw;
+	background-image: url('https://i.ibb.co/pbhHQBS/bordercastle.jpg');
 	background-size: 30vw;
 	background-repeat: no-repeat;
 	background-blend-mode: exclusion;
@@ -93,6 +94,14 @@ mark span {
 
 
 @media screen and (max-width: 576px){
+
+		    iframe {
+  		transform: scale(0.55, 0.55);
+  		height: 1000px;
+  		width: 1000px;
+  		transform-origin: left;
+
+		}
 	body{
 		margin-top: 0px;
 		margin-left: 0px;
