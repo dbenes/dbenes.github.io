@@ -13,7 +13,7 @@ html, body{
     font-family: 'PeterQ';
     font-style: normal;
     font-weight: 325;
-    src: local('Verlag'), url('https://fonts.cdnfonts.com/s/97414/PeterQuincy-w1nKz.woff') format('woff');
+    src: local('Verlag'), url('https://fonts.cdnfonts.com/s/101086/KeeshyaSellaras-qZgBx.woff') format('woff');
 }
 @font-face {
     font-family: 'Eurof';
@@ -79,17 +79,19 @@ mark span {
 		margin-left: 0px;
 		margin-right: 0px;
 		font-size: 5.75vw;
+		text-align: center;
 	}
 	ul{
 		margin-right: 15px;
 		margin-left: 15px;
+		text-align: center;
 	}
 	body {
-	text-align: left;
 	font-family: Eurof;
 	margin-right: 0px; 
 	margin-left: 0px; 
 	font-size: 5vw;
+			text-align: center;
 	    }
 }
 

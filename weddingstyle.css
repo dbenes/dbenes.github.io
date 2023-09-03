@@ -12,7 +12,7 @@ html, body{
     font-family: 'PeterQ';
     font-style: normal;
     font-weight: 325;
-    src: local('Verlag'), url('https://fonts.cdnfonts.com/s/97414/PeterQuincy-w1nKz.woff') format('woff');
+    src: local('Verlag'), url('https://fonts.cdnfonts.com/s/101086/KeeshyaSellaras-qZgBx.woff') format('woff');
 }
 @font-face {
     font-family: 'Eurof';
@@ -32,10 +32,10 @@ body {
 	font-family: Eurof;
 	font-size: 1.50vw;
 	background-image: url('https://i.ibb.co/bvV72kp/test-border.jpg');
-	background-size: 26vw;
+	background-size: 30vw;
 	background-repeat: no-repeat;
 	background-blend-mode: exclusion;
-	background-position-x: 55vw;
+	background-position-x: 60vw;
 	background-position-y: center;
 	margin-top: 0px;
 }
@@ -51,22 +51,21 @@ h1 {
 }
 h2 {
 	line-height: 110%;
+	margin-right: 51vw;
 	color: gray;
 	text-align: left; 
 	font-size: 2.5vw; 
 	position: relative; 
 	margin-top: 0px; 
-	line-height: 20%;
 	margin-left: 75px;
 	font-family: Eurof;
 }
 h3 {
-	line-height: 110%;
+	line-height: 50%;
 	color: gray;
 	text-align: left; 
 	font-size: 1.9vw; 
 	position: relative;
-	line-height: 20%; 
 	margin-top: 0px; 
 	margin-left: 75px;
 	font-family: Eurof;
@@ -124,6 +123,7 @@ mark span {
 	}
 	h2 {
 	margin-left: 0px;
+	margin-right: 0px;
 	margin-top: 10px;
 	line-height: 100%;
 	color: gray;
