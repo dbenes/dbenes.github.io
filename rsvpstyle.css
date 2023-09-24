@@ -22,7 +22,38 @@ html, body{
     src: local('Verlag'), url('https://fonts.cdnfonts.com/s/8583/eurof56.woff') format('woff');
 }
 
+@font-face {
+	font-family:  'Manrope';
+	font-style: normal;
+	src: url('Manrope-ExtraLight.woff') format('woff');
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color: pink;
+}
+.topnav {
+	background-color: #004b84;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+	font-size: 50px;
+	font-family: Manrope;
+	margin-top: -8px;
+
+}
+
+
 h1 {
+	background-image: url('https://i.ibb.co/42NKnHQ/Melanie-David.jpg');
+	background-size: 39vw;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: top;
 	text-align: center; 
 	margin-left: 0px;
 	line-height: 110%;
@@ -65,7 +96,19 @@ mark span {
 }
 
 @media screen and (max-width: 576px){
+
+	.topnav {
+
+	font-size: 10vw;
+	margin-top: -10px;
+
+}
 	h1{
+		background-image: url('https://i.ibb.co/42NKnHQ/Melanie-David.jpg');
+		background-size: 65vw;
+		background-repeat: no-repeat;
+		background-position-x: center;
+		background-position-y: top;
 		margin-left: 0px;
 		margin-top: 10px;
 		left: 0px;
