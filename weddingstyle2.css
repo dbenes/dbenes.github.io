@@ -93,32 +93,24 @@ h1 {
 }
 h2 {
 	line-height: 110%;
-	margin-right: 51vw;
 	color: gray;
-	text-align: left; 
 	font-size: 2.5vw; 
 	position: relative; 
 	margin-top: 0px; 
-	margin-left: 75px;
 	font-family: Manrope;
 }
 h3 {
 	line-height: 50%;
 	color: gray;
-	text-align: left; 
 	font-size: 1.9vw; 
-	position: relative;
 	margin-top: 0px; 
-	margin-left: 75px;
 	font-family: Eurof;
 }
 ul {
 	text-align:left;
-	margin-left: 75px;
 	font-family: Eurof;
 	list-style-type: none;
 	padding: 0px;	
-	margin-right: 75vw; 
 	line-height: 110%;
 }
 
