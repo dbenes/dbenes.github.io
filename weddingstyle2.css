@@ -185,7 +185,7 @@ mark span {
 	margin-right: 0px;
 	margin-top: 10px;
 	line-height: 100%;
-	color: gray;
+	color: #004b84;
 	text-align: center; 
 	font-size: 7vw; 
 	font-family: Manrope;
@@ -195,11 +195,7 @@ mark span {
 	margin-top: 10px;
 	line-height: 100%;
 	color: #f16d82;
-	font-size: 7vw; 
-	text-align: center; 
-	font-family: PeterQ;
+	font-size: 12vw; 
 	}
 
-	background-image { display: none; }
-	    }
 }
