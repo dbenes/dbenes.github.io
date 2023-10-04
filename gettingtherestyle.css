@@ -33,17 +33,17 @@ a {
 }
 
 a span {
-	color: grey;
+	color: #f16d82;
 }
 
 a span:hover{
 	color: pink;
 }
 
-
-a:hover{
+a:hover	{
 	color: pink;
 }
+
 .topnav {
 	background-color: #004b84;
 	position: relative;
@@ -59,12 +59,6 @@ body {
 	padding: 0;
 	font-family: Eurof;
 	font-size: 1.50vw;
-	background-image: url('https://i.ibb.co/pbhHQBS/bordercastle.jpg');
-	background-size: 30vw;
-	background-repeat: no-repeat;
-	background-blend-mode: exclusion;
-	background-position-x: 60vw;
-	background-position-y: center;
 	margin-top: 0px;
 	margin-left: 0;
 	margin-right: 0;
@@ -80,7 +74,7 @@ h1 {
 	font-family: PeterQ;
 }
 h2 {
-	line-height: 110%;
+	line-height: 100%;
 	margin-right: 15vw;
 	color: #004b84;
 	text-align: left; 
@@ -91,7 +85,7 @@ h2 {
 	font-family: Eurof;
 }
 h3 {
-	line-height: 100%;
+	line-height: 110%;
 	color: #004b84;
 	text-align: left; 
 	font-size: 1.8vw; 
@@ -104,7 +98,6 @@ h3 {
 }
 ul {
 	text-align:left;
-	font-size: 2vw;
 	margin-left: 75px;
 	font-family: Eurof;
 	list-style-type: none;
