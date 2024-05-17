@@ -87,6 +87,10 @@ mark span {
 		font-family: Verlag;
 		text-align: center;
 	}
+	img{
+		width: 50%;
+		height: 50%;
+	}
 
 	h2{
 		font-size: 9vw;
